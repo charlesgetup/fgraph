@@ -61,14 +61,14 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<mocha>, ["~> 0.9.0"])
       s.add_development_dependency(%q<fakeweb>, ["~> 1.2.0"])
     else
-      s.add_dependency(%q<httparty>, ["~> 0.5.0"])
+      s.add_dependency(%q<httparty>, ["~> 0.6.1"])
       s.add_dependency(%q<shoulda>, ["~> 2.10.0"])
       s.add_dependency(%q<jnunemaker-matchy>, ["~> 0.4.0"])
       s.add_dependency(%q<mocha>, ["~> 0.9.0"])
       s.add_dependency(%q<fakeweb>, ["~> 1.2.0"])
     end
   else
-    s.add_dependency(%q<httparty>, ["~> 0.5.0"])
+    s.add_dependency(%q<httparty>, ["~> 0.6.1"])
     s.add_dependency(%q<shoulda>, ["~> 2.10.0"])
     s.add_dependency(%q<jnunemaker-matchy>, ["~> 0.4.0"])
     s.add_dependency(%q<mocha>, ["~> 0.9.0"])
